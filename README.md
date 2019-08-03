@@ -1,3 +1,9 @@
+# van Helbergen - Design Tokens
+
+Amazing. I have design tokens now. \o/
+
+Published to npm under @vanhelbergen/design-tokens.
+
 # Basic Style Dictionary
 
 This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, just cd into this directory and run:
