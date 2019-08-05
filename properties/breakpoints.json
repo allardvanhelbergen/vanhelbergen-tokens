@@ -1,0 +1,20 @@
+{
+  "breakpoint": {
+    "smallAndUp": {
+      "value": "576",
+      "comment": "px"
+    },
+    "mediumAndUp": {
+      "value": "768",
+      "comment": "px"
+    },
+    "largeAndUp": {
+      "value": "992",
+      "comment": "px"
+    },
+    "extraLargeAndUp": {
+      "value": "1202",
+      "comment": "px"
+    }
+  }
+}

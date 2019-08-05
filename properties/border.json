@@ -1,0 +1,14 @@
+{
+  "border": {
+    "radius": {
+      "default": { 
+        "value": ".25",
+        "comment": "rem"
+      },
+      "circle": { 
+        "value": "50%",
+        "comment": "for circular borders, %"
+      }
+    }
+  }
+}
