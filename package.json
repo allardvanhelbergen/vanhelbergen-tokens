@@ -6,8 +6,10 @@
   "scripts": {
     "build": "node_modules/.bin/style-dictionary build",
     "clean": "rm -rf build",
+    "develop": "yarn build && yarn watch",
     "prepublishOnly": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "chokidar 'properties/**/*.json' -c 'yarn build'"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,7 @@
     "properties"
   ],
   "devDependencies": {
+    "chokidar-cli": "^2.0.0",
     "style-dictionary": "^2.8.1"
   }
 }
