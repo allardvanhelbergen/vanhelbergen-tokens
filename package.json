@@ -1,7 +1,7 @@
 {
   "name": "@vanhelbergen/design-tokens",
   "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, just cd into this directory and run: ```bash style-dictionary build ```",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "build/index.js",
   "scripts": {
     "build": "node_modules/.bin/style-dictionary build",
